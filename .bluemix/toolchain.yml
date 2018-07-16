@@ -15,7 +15,7 @@ template:
     git url: >-
       [https://github.com/mayarobin/blockchain-toolchain](https://github.com/mayarobin/blockchain-toolchain)
     git branch: >-
-      [routerBackup](https://github.com/mayarobin/blockchain-toolchain/tree/routerBackup)
+      [routerBackup](https://github.com/mayarobin/blockchain-toolchain/tree/RouterBackup)
 toolchain:
   name: 'Blockchain-{{timestamp}}-mvp'
   template:
