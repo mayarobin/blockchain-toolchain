@@ -13,9 +13,9 @@ template:
     - chaincode-build
   info:
     git url: >-
-      [https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain](https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain)
+      [https://github.com/mayarobin/blockchain-toolchain](https://github.com/mayarobin/blockchain-toolchain)
     git branch: >-
-      [chaincode](https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain/tree/chaincode)
+      [chaincode](https://github.com/mayarobin/blockchain-toolchain/tree/chaincode)
 toolchain:
   name: 'Blockchain-{{timestamp}}-mvp'
   template:
@@ -50,7 +50,7 @@ services:
           ORG_NAME: '{{form.pipeline.parameters.deploy-organization}}'
           SPACE_NAME: '{{form.pipeline.parameters.deploy-space}}'
           SCRIPT_DIR: './scripts/'
-          SCRIPT_URL: 'https://raw.githubusercontent.com/IBM-Blockchain-Starter-Kit/build-lib/master/src'
+          SCRIPT_URL: 'https://raw.githubusercontent.com/mayarobin/build-lib/Multiple-src-dir/src'
         execute: true
 form:
   pipeline:
