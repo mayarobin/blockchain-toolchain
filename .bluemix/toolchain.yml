@@ -50,7 +50,7 @@ services:
           ORG_NAME: '{{form.pipeline.parameters.deploy-organization}}'
           SPACE_NAME: '{{form.pipeline.parameters.deploy-space}}'
           SCRIPT_DIR: './scripts/'
-          SCRIPT_URL: 'https://raw.githubusercontent.com/maya/build-lib/tree/edit-Test/Build/'
+          SCRIPT_URL: 'https://raw.githubusercontent.com/maya/build-lib/tree/Multiple-src-dir'
         execute: true
 form:
   pipeline:
